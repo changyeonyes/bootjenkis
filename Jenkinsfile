@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Checkout Source Code') {
             steps {
-                git branch: 'main', credentialsId: 'github-credentials', url: 'https://github.com/your-username/your-repo.git'
+                git branch: 'main', credentialsId: 'newchang', url: 'https://github.com/changyeonyes/bootjenkis'
             }
         }
 
